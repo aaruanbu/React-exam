@@ -1,0 +1,65 @@
+  1) react meaning
+		The React.js framework is an open-source JavaScript framework and library developed by Facebook. It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
+   
+   2) component
+		Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+	
+	3) function syntax.
+		import React from "react"
+		
+		export const Home=()=>{
+		return(<div>
+				
+				</div>)
+				
+		}
+		
+	4)Class syntax	
+		import React {Component} from "react" 
+			
+			export default class Home extends Component{
+				
+				render(){
+				
+				return(<div>
+				
+					</div>)
+					}
+					}
+					
+	5)internal style.
+			const Styl={
+				color:"red",
+				margin:"20px"
+				}
+				
+				<div>
+				   <p style={styl}>Welcome</p>
+				</div>
+	
+	6) What is JSX?
+		JSX-Javascript Syntax Extension
+		It is a combination of html and Javascript.
+		It create an elemet inside the Javascript.
+
+	7) Advantages of React
+		Single page web Application.
+		It is Declarative.
+		Simplified Scripting.
+		Component based Architecture.
+			
+	8) Differences between real DOM and Virtual DOM
+		*Real Dom
+		High usage of memory .
+		It can directly update html.
+		It Creates a new DOM if the element updates.
+				
+		*Virutal DOM
+		No memory usage.
+		It can't directly update html.
+		It Updates the JSX if the element update.
+				
+	9) Write any three packages
+		npm i react-icons
+		npm i react-slick
+		npm i slick-carousel
